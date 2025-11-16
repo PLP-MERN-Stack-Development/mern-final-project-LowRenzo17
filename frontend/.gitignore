@@ -1,0 +1,49 @@
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+
+
+# server
+server/node_modules
+
+# build & cache
+.vite
+.cache
+build
+
+# coverage / tests
+coverage
+.nyc_output
+
+# vitest/jest cache
+vitest-report.html
+
+# TypeScript
+*.tsbuildinfo
+
+# lockfiles (optional - keep if you track them)
+# package-lock.json
+# pnpm-lock.yaml
+
+# OS
+Thumbs.db
